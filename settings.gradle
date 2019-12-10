@@ -1,0 +1,6 @@
+include ':app'
+include ':CaldremchAnnotationProcessor'
+include ':CaldremchAnnotation'
+rootProject.name='MyAnnotationProcessor'
+project(':CaldremchAnnotationProcessor').name = "caldremch-annotation-processor"
+project(':CaldremchAnnotation').name = "caldremch-annotation"
